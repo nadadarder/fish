@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://blbuudgokmdg2"]
+
+[ext_resource type="Texture2D" uid="uid://jtvn2esc1xs1" path="res://20 Enemies.png" id="1_sy5k4"]
+
+[node name="Node" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 630.0
+offset_bottom = 500.0
+flip_h = true
+
+[node name="TileMap" type="TileMap" parent="TextureRect"]
+position = Vector2(-28, 31)
+format = 2
+
+[node name="20Enemies" type="Sprite2D" parent="TextureRect"]
+position = Vector2(954, 838)
+scale = Vector2(0.6936508, 1)
+texture = ExtResource("1_sy5k4")
